@@ -6,6 +6,7 @@ public class TestModel {
 		
 		Model model = new Model();
 		System.out.println(model.getNercList());
+		System.out.println(model.getPowerOutages(5, 300, new Nerc(14, "casa")));
 
 	}
 
